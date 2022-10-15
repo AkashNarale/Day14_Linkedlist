@@ -4,18 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace linkedListUC3
+namespace linkedlistUC4
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-                linkedListUC3 customLinkedList = new linkedListUC3();
-                //UC3 append
-                customLinkedList.Append(56);
-                customLinkedList.Append(30);
-                customLinkedList.Append(70);
-                Console.ReadLine();
+            LinkedList listThree = new LinkedList();
+            listThree.AddAppend(56);
+            listThree.AddAppend(70);
+            listThree.Display();
+            listThree.Insert(2, 30);
+            Console.WriteLine("----------After insert operation----------");
+            listThree.Display();
+            Console.ReadLine();
+
         }
     }
 }
