@@ -4,19 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace linkListUC2
+namespace linkedListUC3
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            linkedListUC2 customLinkedList = new linkedListUC2();
-            //UC2 insert front
-            customLinkedList.InsertFront(56);
-            customLinkedList.InsertFront(30);
-            customLinkedList.InsertFront(70);
-
-            Console.ReadLine();
+                linkedListUC3 customLinkedList = new linkedListUC3();
+                //UC3 append
+                customLinkedList.Append(56);
+                customLinkedList.Append(30);
+                customLinkedList.Append(70);
+                Console.ReadLine();
         }
     }
 }
