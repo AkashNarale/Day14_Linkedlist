@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace linkListUC2
+namespace linkedListUC3
 {
     class Node
     {
