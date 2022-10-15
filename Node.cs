@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace linkedListUC3
+namespace linkedlistUC4
 {
-    class Node
+    public class Node
     {
         public int data;
         public Node next;
-        public Node(int d)
+
+        public Node(int data)
         {
-            data = d;
-            next = null;
+            this.data = data;
         }
     }
 }
